@@ -4,13 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic Styles for all sections*/
+    color:3a3a3a; } 
+
 /* Header */
 header {
     background-color:lightcoral;}
 
 /* Main Content */
 main {
-    background-color:coral;}
+    background-color:coral;
+    /*To make main element take up the remaining space to push footer down to  bottom */
+    flex:1 0 auto;
+}
 
 /* Footer */
 footer {
