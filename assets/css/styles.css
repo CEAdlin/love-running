@@ -101,7 +101,6 @@ main {
     margin-top:47px;
 }
 /*Hero Section*/
-
 #hero {
     height: 600px;
     width: 100%;
@@ -123,6 +122,56 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/*Reasons Section*/
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 180%;
+    
+}
+#benefits h3 {
+    display: inline;
+}
+
+#benefits-physical>div, #benefits-mental>div{
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+
+#benefits p {
+    padding: 0 20px;
+
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin:5px 0;
+}
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* Footer */
 #social-networks {
    text-align: center;
