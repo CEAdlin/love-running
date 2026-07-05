@@ -1,9 +1,9 @@
 /*Google Fonts Import*/
 
-.oswald-<uniquifier> {
+.oswald-uniquifier {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -97,10 +97,15 @@ nav {
 
 /* Main Content */
 main {
-    background-color: coral;
     /*To make main element take up the remaining space to push footer down to  bottom */
     flex: 1 0 auto;
     margin-top:47px;
+}
+/*Hero Section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
